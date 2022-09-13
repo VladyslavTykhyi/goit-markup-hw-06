@@ -20,7 +20,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- AOS Animation -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>WebStudio</title>
@@ -85,7 +85,9 @@
           <h1 class="hero-title title">
             Ефективні рішення для <br />вашого бізнесу
           </h1>
-          <button class="hero-btn btn" type="button" data-modal-open>Замовити послугу</button>
+          <button class="hero-btn btn" type="button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <!--section 2; Benefits-->
@@ -148,7 +150,11 @@
         <div class="container work-container">
           <h2 class="section-title title">Чим ми займаємося</h2>
           <ul class="list work-list">
-            <li class="list-item work-list-item" data-aos="fade-left" data-aos-duration="1000">
+            <li
+              class="list-item work-list-item"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <img
                 src="./images/studio/wecreate.jpg"
                 alt="We create products"
@@ -157,7 +163,12 @@
               />
               <h3 class="work-item-wrapper">Десктопні додатки</h3>
             </li>
-            <li class="list-item work-list-item" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+            <li
+              class="list-item work-list-item"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <img
                 src="./images/studio/weadjust.jpg"
                 alt="We can do different versions"
@@ -166,7 +177,12 @@
               />
               <h3 class="work-item-wrapper">Мобільні додатки</h3>
             </li>
-            <li class="list-item work-list-item" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">
+            <li
+              class="list-item work-list-item"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+            >
               <img
                 src="./images/studio/wedesign.jpg"
                 alt="We design products"
@@ -183,7 +199,11 @@
         <div class="container team-container">
           <h2 class="section-title title">Наша команда</h2>
           <ul class="list team-list">
-            <li class="team-card" data-aos="fade-right" data-aos-duration="1000" >
+            <li
+              class="team-card"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <img
                 src="./images/studio/ihor.jpg"
                 alt="Фото Ігора Дем'яненко"
@@ -244,7 +264,12 @@
                 </ul>
               </div>
             </li>
-            <li class="team-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+            <li
+              class="team-card"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <img
                 src="./images/studio/olga.jpg"
                 alt="Фото Ольги Рєпіної"
@@ -305,7 +330,12 @@
                 </ul>
               </div>
             </li>
-            <li class="team-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
+            <li
+              class="team-card"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+            >
               <img
                 src="./images/studio/mykola.jpg"
                 alt="Фото Миколи Тарасова"
@@ -366,7 +396,12 @@
                 </ul>
               </div>
             </li>
-            <li class="team-card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
+            <li
+              class="team-card"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="1500"
+            >
               <img
                 src="./images/studio/myhaylo.jpg"
                 alt="Фото Михайла Єрмакова"
@@ -567,16 +602,35 @@
             </li>
           </ul>
         </div>
+        <div class="newsletter">
+          <form action="#">
+            <p class="newsletter-text">Підпишіться на розсилку</p>
+            <label class="newsletter-label">
+              <input
+                class="newsletter-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="newsletter-btn" type="submit">
+              Підписатися
+              <svg class="newsletter-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
-        <svg class="icon-btn" width="11" height="11">
-          <use href="./images/icons.svg#close-button"></use>
-        </svg>
-      </button>
+          <svg class="icon-btn" width="11" height="11">
+            <use href="./images/icons.svg#close-button"></use>
+          </svg>
+        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
