@@ -262,7 +262,9 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-
+.modal:focus-within {
+  box-shadow: -50px 0 200px -50px #504bff, 50px 0 200px -50px #1504fa;
+}
 
 .modal-btn {
   position: absolute;
